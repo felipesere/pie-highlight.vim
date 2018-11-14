@@ -15,7 +15,7 @@ syn keyword numerical zero add1
 syn keyword function -> →
 
 syn keyword claimAndDefine claim define nextgroup=aDefinitionName skipwhite
-syn match aDefinitionName '\v[a-z-]+' contained
+syn match aDefinitionName '\v[a-zA-Z-]+' contained
 
 syn match anAtom '\v\'[a-z-]+'
 syn match languageDefinition '\v#.+'
