@@ -23,4 +23,5 @@ setlocal indentkeys=!,o,O
 
 setlocal indentexpr=
 setlocal lisp
+setlocal lispwords+=λ
 let b:undo_indent .= '| setlocal lisp<'
