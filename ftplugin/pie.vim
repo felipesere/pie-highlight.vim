@@ -3,6 +3,7 @@ if exists('g:loaded_pie_pluing') && g:loaded_pie_pluing
 endif
 let g:loaded_pie_pluing = 1
 
-inoremap <buffer> \Pi Π
+inoremap <buffer> \p Π
 inoremap <buffer> \l λ
-inoremap <buffer> \sum Σ
+inoremap <buffer> \s Σ
+inoremap <buffer> \a →
