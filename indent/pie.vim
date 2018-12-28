@@ -23,5 +23,5 @@ setlocal indentkeys=!,o,O
 
 setlocal indentexpr=
 setlocal lisp
-setlocal lispwords+=claim,λ,Π,which-Nat,iter-Nat,rec-Nat,rec-List,vec::,ind-Nat
+setlocal lispwords+=claim,λ,Π,which-Nat,iter-Nat,rec-Nat,rec-List,vec::,ind-Nat,cong
 let b:undo_indent .= '| setlocal lisp<'
